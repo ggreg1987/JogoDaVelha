@@ -1,7 +1,9 @@
 #container {
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -9,5 +11,6 @@
     border: 7px solid #000;
     box-sizing: border-box;
     flex: 1 1 33%;
-    height: 200px;
+    height: 150px;
+    
 }
