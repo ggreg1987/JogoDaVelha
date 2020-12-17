@@ -4,3 +4,10 @@
     align-items: center;
     
 }
+
+.box {
+    border: 7px solid #000;
+    box-sizing: border-box;
+    flex: 1 1 33%;
+    height: 200px;
+}
