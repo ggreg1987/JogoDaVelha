@@ -16,3 +16,19 @@
     height: 150px;
     
 }
+
+#bloco1 , #bloco2 , #bloco3 {
+    border-top: none;
+}
+
+#bloco1 , #bloco4 , #bloco7 {
+    border-left: none;
+}
+
+#bloco7 , #bloco8 , #bloco9 {
+    border-bottom: none;
+}
+
+#bloco3 , #bloco6 , #bloco9 {
+    border-right: none;
+}
