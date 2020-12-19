@@ -10,6 +10,15 @@ for(let i = 0; i < blocos.length; i++) {
 
     blocos[i].addEventListener("click", () => {
 
+        let elemento;
+
+        if(jogador1 == jogador2) {
+            elemento = x;
+        } else {
+            elemento = o;
+        }
+
+        let cloneElemento = elemento.cloneNode(true);
 
     });
 
