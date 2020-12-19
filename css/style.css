@@ -4,8 +4,6 @@ body {
 
 }
 
-
-
 #container {
     
     display: flex;
@@ -45,7 +43,23 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     font-weight: bold;
     font-size: 30px;
+}
+
+#x-pontuacao {
+    margin-right: 8px;
+}
+
+#o-pontuacao {
+    display: inline-block;
+    margin-left: 50px;
+    height: 22px;
+    width: 22px;
+    border: 2px solid #0000ff;
+    border-radius: 50%;
+    margin-right: 8px;
+    
+    
 }
