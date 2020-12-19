@@ -20,6 +20,8 @@ for(let i = 0; i < blocos.length; i++) {
 
         let cloneElemento = elemento.cloneNode(true);
 
+        this.appendChild(cloneElemento);
+
     });
 
 }
