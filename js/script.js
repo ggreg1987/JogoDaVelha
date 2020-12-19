@@ -22,6 +22,12 @@ for(let i = 0; i < blocos.length; i++) {
 
         this.appendChild(cloneElemento);
 
+        if(jogador1 == jogador2) {
+            jogador1++;
+        } else {
+            jogador2++;
+        }
+
     });
 
 }
