@@ -8,7 +8,7 @@ let jogador2 = 0;
 
 for(let i = 0; i < blocos.length; i++) {
 
-    blocos[i].addEventListener("click", () => {
+    blocos[i].addEventListener("click",  function() {
 
         let elemento;
 
