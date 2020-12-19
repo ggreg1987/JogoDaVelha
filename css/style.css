@@ -10,7 +10,7 @@ body {
     
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
+    width: 300px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +21,7 @@ body {
     border: 7px solid #000;
     box-sizing: border-box;
     flex: 1 1 33%;
-    height: 150px;
+    height: 100px;
     
 }
 
@@ -41,3 +41,11 @@ body {
     border-right: none;
 }
 
+.placar-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
