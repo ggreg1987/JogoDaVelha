@@ -7,5 +7,10 @@ let jogador1 = 0;
 let jogador2 = 0;
 
 for(let i = 0; i < blocos.length; i++) {
-    
+
+    blocos[i].addEventListener("click", () => {
+
+
+    });
+
 }
