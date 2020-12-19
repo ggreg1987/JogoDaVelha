@@ -8,7 +8,7 @@ body {
     
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
+    width: 380px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -19,7 +19,7 @@ body {
     border: 7px solid #000;
     box-sizing: border-box;
     flex: 1 1 33%;
-    height: 150px;
+    height: 130px;
     
 }
 
@@ -62,4 +62,24 @@ body {
     margin-right: 8px;
     
     
+}
+
+.x {
+font-weight: bold;
+font-size: 70px;
+}
+
+.o {
+    display: inline-block; 
+    height: 60px;
+    width: 60px;
+    border: 3px solid #0000ff;
+    border-radius: 50%;
+    
+}
+
+#obj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
