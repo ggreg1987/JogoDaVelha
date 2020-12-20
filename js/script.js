@@ -56,10 +56,10 @@ function checarCondicao(){
         let bloco3Child = bloco3.childNodes[0].className;
 
         if(bloco1Child == "x" && bloco2Child == "x" && bloco3Child == "x") {
-            
+            placar("x");
 
         } else if(bloco1Child == "o" && bloco2Child == "o" && bloco3Child == "o") {
-            console.log("bola vencedor");
+            placar("o");
         }
     }
 
@@ -70,10 +70,10 @@ function checarCondicao(){
         let bloco6Child = bloco6.childNodes[0].className;
 
         if(bloco4Child == "x" && bloco5Child == "x" && bloco6Child == "x") {
-            console.log("x vencedor");
+            placar("x");
 
         } else if(bloco4Child == "o" && bloco5Child == "o" && bloco6Child == "o") {
-            console.log("bola vencedor");
+            placar("o");
         }
     }
 
@@ -84,10 +84,10 @@ function checarCondicao(){
         let bloco9Child = bloco9.childNodes[0].className;
 
         if(bloco7Child == "x" && bloco8Child == "x" && bloco9Child == "x") {
-            console.log("x vencedor");
+            placar("x");
 
         } else if(bloco7Child == "o" && bloco8Child == "o" && bloco9Child == "o") {
-            console.log("bola vencedor");
+            placar("o");
         }
     }
 
@@ -98,10 +98,10 @@ function checarCondicao(){
         let bloco7Child = bloco7.childNodes[0].className;
 
         if(bloco1Child == "x" && bloco4Child == "x" && bloco7Child == "x") {
-            console.log("x vencedor");
+            placar("x");
 
         } else if(bloco1Child == "o" && bloco4Child == "o" && bloco7Child == "o") {
-            console.log("bola vencedor");
+            placar("o");
         }
     }
 
@@ -112,10 +112,10 @@ function checarCondicao(){
         let bloco8Child = bloco8.childNodes[0].className;
 
         if(bloco2Child == "x" && bloco5Child == "x" && bloco8Child == "x") {
-            console.log("x vencedor");
+            placar("x");
 
         } else if(bloco2Child == "o" && bloco5Child == "o" && bloco8Child == "o") {
-            console.log("bola vencedor");
+            placar("o");
         }
     }
 
@@ -126,10 +126,10 @@ function checarCondicao(){
         let bloco9Child = bloco9.childNodes[0].className;
 
         if(bloco3Child == "x" && bloco6Child == "x" && bloco9Child == "x") {
-            console.log("x vencedor");
+            placar("x");
 
         } else if(bloco3Child == "o" && bloco6Child == "o" && bloco9Child == "o") {
-            console.log("bola vencedor");
+            placar("o");
         }
     }
 
@@ -140,10 +140,10 @@ function checarCondicao(){
         let bloco9Child = bloco9.childNodes[0].className;
 
         if(bloco1Child == "x" && bloco5Child == "x" && bloco9Child == "x") {
-            console.log("x vencedor");
+            placar("x");
 
         } else if(bloco1Child == "o" && bloco5Child == "o" && bloco9Child == "o") {
-            console.log("bola vencedor");
+            placar("o");
         }
     }
 
@@ -154,10 +154,10 @@ function checarCondicao(){
         let bloco7Child = bloco7.childNodes[0].className;
 
         if(bloco3Child == "x" && bloco5Child == "x" && bloco7Child == "x") {
-            console.log("x vencedor");
+            placar("x");
 
         } else if(bloco3Child == "o" && bloco5Child == "o" && bloco7Child == "o") {
-            console.log("bola vencedor");
+            placar("o");
         }
     }
 
