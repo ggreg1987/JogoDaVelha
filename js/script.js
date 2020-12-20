@@ -182,6 +182,8 @@ function placar(elemento) {
 
     if(elemento == 'x') {
         player1.textContent = parseInt(player1.textContent) + 1;
+    } else if(elemento == 'o') {
+        player2.textContent = parseInt(player2.textContent) + 1;
     }
 
 }
