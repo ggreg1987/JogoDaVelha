@@ -44,3 +44,7 @@ for(let i = 0; i < blocos.length; i++) {
     });
 
 }
+
+if(bloco1.childNodes.length > 0 && bloco2.childNodes.length > 0 && bloco3.childNodes.length > 0) {
+    
+}
