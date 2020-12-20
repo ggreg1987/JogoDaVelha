@@ -52,8 +52,9 @@ if(bloco1.childNodes.length > 0 && bloco2.childNodes.length > 0 && bloco3.childN
     let bloco3Child = bloco3.childNodes[0].className;
 
     if(bloco1Child === "x" && bloco2Child === "x" && bloco3Child === "x") {
+
+
+    } else if(bloco1Child === "o" && bloco2Child === "o" && bloco3Child === "o") {
         
-
-
     }
 }
