@@ -185,5 +185,10 @@ function placar(elemento) {
     } else if(elemento == 'o') {
         player2.textContent = parseInt(player2.textContent) + 1;
     }
+   
+}
+
+function limparTela() {
+
 
 }
