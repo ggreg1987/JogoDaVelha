@@ -185,7 +185,13 @@ function placar(elemento) {
     } else if(elemento == 'o') {
         player2.textContent = parseInt(player2.textContent) + 1;
     }
+
    limparTela();
+
+   jogador1 = 0;
+   jogador2 = 0;
+
+  
 }
 
 function limparTela() {
