@@ -18,14 +18,18 @@ for(let i = 0; i < blocos.length; i++) {
             elemento = o;
         }
 
-        let cloneElemento = elemento.cloneNode(true);
+        if(this.childNodes.length == 0) {
 
-        this.appendChild(cloneElemento);
+            let cloneElemento = elemento.cloneNode(true);
 
-        if(jogador1 == jogador2) {
-            jogador1++;
-        } else {
-            jogador2++;
+            this.appendChild(cloneElemento);
+
+            if(jogador1 == jogador2) {
+                jogador1++;
+            } else {
+                jogador2++;
+            }
+
         }
 
     });
