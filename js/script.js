@@ -133,5 +133,21 @@ function checarCondicao(){
         }
     }
 
+    if(bloco1.childNodes.length > 0 && bloco5.childNodes.length > 0 && bloco9.childNodes.length > 0) {
+
+        let bloco1Child = bloco1.childNodes[0].className;
+        let bloco5Child = bloco5.childNodes[0].className;
+        let bloco9Child = bloco9.childNodes[0].className;
+
+        if(bloco1Child == "x" && bloco5Child == "x" && bloco9Child == "x") {
+            console.log("x vencedor");
+
+        } else if(bloco1Child == "o" && bloco5Child == "o" && bloco9Child == "o") {
+            console.log("bola vencedor");
+        }
+    }
+
+
+
 
 }
