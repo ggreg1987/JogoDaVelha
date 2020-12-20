@@ -174,6 +174,8 @@ function checarCondicao(){
 
     }
 
+}
 
+function placar(elemento) {
 
 }
