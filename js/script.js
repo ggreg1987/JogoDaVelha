@@ -91,4 +91,18 @@ function checarCondicao(){
         }
     }
 
+    if(bloco1.childNodes.length > 0 && bloco4.childNodes.length > 0 && bloco7.childNodes.length > 0) {
+
+        let bloco1Child = bloco1.childNodes[0].className;
+        let bloco4Child = bloco4.childNodes[0].className;
+        let bloco7Child = bloco7.childNodes[0].className;
+
+        if(bloco1Child == "x" && bloco4Child == "x" && bloco7Child == "x") {
+            console.log("x vencedor");
+
+        } else if(bloco1Child == "o" && bloco4Child == "o" && bloco7Child == "o") {
+            console.log("bola vencedor");
+        }
+    }
+
 }
