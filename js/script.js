@@ -192,7 +192,8 @@ function limparTela() {
     let limparBlocos = document.querySelectorAll(".box div");
 
     for(let i = 0; i < limparBlocos.length; i++ ) {
-        
+        limparBlocos[i].parentNode.removeChild(limparBlocos[i]);
+
     }
 
 }
