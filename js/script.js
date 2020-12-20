@@ -105,4 +105,19 @@ function checarCondicao(){
         }
     }
 
+    if(bloco2.childNodes.length > 0 && bloco5.childNodes.length > 0 && bloco8.childNodes.length > 0) {
+
+        let bloco2Child = bloco2.childNodes[0].className;
+        let bloco5Child = bloco5.childNodes[0].className;
+        let bloco8Child = bloco8.childNodes[0].className;
+
+        if(bloco2Child == "x" && bloco5Child == "x" && bloco8Child == "x") {
+            console.log("x vencedor");
+
+        } else if(bloco2Child == "o" && bloco5Child == "o" && bloco8Child == "o") {
+            console.log("bola vencedor");
+        }
+    }
+
+
 }
