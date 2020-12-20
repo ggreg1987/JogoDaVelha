@@ -177,5 +177,7 @@ function checarCondicao(){
 }
 
 function placar(elemento) {
+    let player1 = document.querySelector('#pontuacao-player1');
+    let player2 = document.querySelector('#pontuacao-player2');
 
 }
