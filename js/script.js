@@ -39,22 +39,27 @@ for(let i = 0; i < blocos.length; i++) {
                 jogador2++;
             }
 
+            checarCondicao();
+
         }
 
     });
 
 }
 
-if(bloco1.childNodes.length > 0 && bloco2.childNodes.length > 0 && bloco3.childNodes.length > 0) {
+function checarCondicao(){
 
-    let bloco1Child = bloco1.childNodes[0].className;
-    let bloco2Child = bloco2.childNodes[0].className;
-    let bloco3Child = bloco3.childNodes[0].className;
+    if(bloco1.childNodes.length > 0 && bloco2.childNodes.length > 0 && bloco3.childNodes.length > 0) {
 
-    if(bloco1Child == "x" && bloco2Child == "x" && bloco3Child == "x") {
-        console.log("x vencedor");
+        let bloco1Child = bloco1.childNodes[0].className;
+        let bloco2Child = bloco2.childNodes[0].className;
+        let bloco3Child = bloco3.childNodes[0].className;
 
-    } else if(bloco1Child == "o" && bloco2Child == "o" && bloco3Child == "o") {
-        console.log("bola vencedor");
+        if(bloco1Child == "x" && bloco2Child == "x" && bloco3Child == "x") {
+            console.log("x vencedor");
+
+        } else if(bloco1Child == "o" && bloco2Child == "o" && bloco3Child == "o") {
+            console.log("bola vencedor");
+        }
     }
 }
