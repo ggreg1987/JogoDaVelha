@@ -161,7 +161,11 @@ function checarCondicao(){
         }
     }
 
+    for(let i = 0; i < blocos.length; i++ ) {
+        if(blocos[i].childNodes != undefined) {
 
+        }
+    }
 
 
 
