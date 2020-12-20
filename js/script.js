@@ -169,7 +169,7 @@ function checarCondicao(){
         }
 
         if(contador == 9) {
-            console.log("jogo encerrado");
+            limparTela();
         }
 
     }
