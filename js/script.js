@@ -56,7 +56,7 @@ function checarCondicao(){
         let bloco3Child = bloco3.childNodes[0].className;
 
         if(bloco1Child == "x" && bloco2Child == "x" && bloco3Child == "x") {
-            console.log("x vencedor");
+            
 
         } else if(bloco1Child == "o" && bloco2Child == "o" && bloco3Child == "o") {
             console.log("bola vencedor");
@@ -177,7 +177,11 @@ function checarCondicao(){
 }
 
 function placar(elemento) {
-    let player1 = document.querySelector('#pontuacao-player1');
+    let player1 = document.querySelector("#pontuacao-player1");
     let player2 = document.querySelector('#pontuacao-player2');
+
+    if(elemento == 'x') {
+        player1.textContent = parseInt(player1.textContent) + 1;
+    }
 
 }
