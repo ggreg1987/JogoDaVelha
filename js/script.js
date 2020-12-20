@@ -189,6 +189,6 @@ function placar(elemento) {
 }
 
 function limparTela() {
-
+    let limparBlocos = document.querySelectorAll(".box div");
 
 }
