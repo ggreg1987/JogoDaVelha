@@ -164,7 +164,7 @@ function checarCondicao(){
     let contador = 0;
 
     for(let i = 0; i < blocos.length; i++ ) {
-        if(blocos[i].childNodes != undefined) {
+        if(blocos[i].childNodes[0] != undefined) {
             contador++;
         }
 
