@@ -62,4 +62,19 @@ function checarCondicao(){
             console.log("bola vencedor");
         }
     }
+
+    if(bloco4.childNodes.length > 0 && bloco5.childNodes.length > 0 && bloco6.childNodes.length > 0) {
+
+        let bloco4Child = bloco4.childNodes[0].className;
+        let bloco5Child = bloco5.childNodes[0].className;
+        let bloco6Child = bloco6.childNodes[0].className;
+
+        if(bloco4Child == "x" && bloco5Child == "x" && bloco6Child == "x") {
+            console.log("x vencedor");
+
+        } else if(bloco4Child == "o" && bloco5Child == "o" && bloco6Child == "o") {
+            console.log("bola vencedor");
+        }
+    }
+
 }
