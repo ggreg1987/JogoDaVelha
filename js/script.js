@@ -147,6 +147,21 @@ function checarCondicao(){
         }
     }
 
+    if(bloco3.childNodes.length > 0 && bloco5.childNodes.length > 0 && bloco7.childNodes.length > 0) {
+
+        let bloco3Child = bloco3.childNodes[0].className;
+        let bloco5Child = bloco5.childNodes[0].className;
+        let bloco7Child = bloco7.childNodes[0].className;
+
+        if(bloco3Child == "x" && bloco5Child == "x" && bloco7Child == "x") {
+            console.log("x vencedor");
+
+        } else if(bloco3Child == "o" && bloco5Child == "o" && bloco7Child == "o") {
+            console.log("bola vencedor");
+        }
+    }
+
+
 
 
 
