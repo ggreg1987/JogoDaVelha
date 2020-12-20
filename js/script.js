@@ -167,6 +167,11 @@ function checarCondicao(){
         if(blocos[i].childNodes != undefined) {
             contador++;
         }
+
+        if(contador == 9) {
+            console.log("jogo encerrado");
+        }
+
     }
 
 
