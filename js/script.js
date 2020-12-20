@@ -46,5 +46,8 @@ for(let i = 0; i < blocos.length; i++) {
 }
 
 if(bloco1.childNodes.length > 0 && bloco2.childNodes.length > 0 && bloco3.childNodes.length > 0) {
-    
+
+    let bloco1Child = bloco1.childNodes[0].className;
+    let bloco2Child = bloco2.childNodes[0].className;
+    let bloco3Child = bloco3.childNodes[0].className;
 }
