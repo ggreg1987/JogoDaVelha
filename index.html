@@ -3,12 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Jogo da Velha</title>
 </head>
 <body>
-    
+    <div id="container">
 
-    <script src="/js/script.js"></script>
+        <div class="box" id="bloco1"></div>
+        <div class="box" id="bloco2"></div>
+        <div class="box" id="bloco3"></div>
+        <div class="box" id="bloco4"></div>
+        <div class="box" id="bloco5"></div>
+        <div class="box" id="bloco6"></div>
+        <div class="box" id="bloco7"></div>
+        <div class="box" id="bloco8"></div>
+        <div class="box" id="bloco9"></div>
+
+        <div class="placar-container">
+
+            <span>
+                <span id="x-pontuacao">X</span>: 
+                <span id="pontuacao-player1">0</span>             
+            </span>
+
+            <span>
+                <span id="o-pontuacao"></span>: 
+                <span id="pontuacao-player2">0</span>             
+            </span>
+
+        </div>
+
+    </div>
+
+    <div id="obj">
+        <div class="x">X</div>
+        <div class="o"></div>
+
+    </div>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
